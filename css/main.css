@@ -96,7 +96,7 @@ body {
 /* ------ side bar ------*/
 .sidebar {
 	height: 100% !important;
-	width: 380px;
+	width: 400px;
 	margin: 0;
 	overflow: hidden;
 }
@@ -107,13 +107,13 @@ body {
 }
 
 .mapDiv .logo-med {
-	opacity: 0.0 !important;
+	opacity: 0.75 !important;
 }
 
 /* ------ timeline container ------*/
 #timeline-container {
 	height: 0px;
-	margin-left: 380px;
+	margin-left: 400px;
 	overflow: hidden;
 }
 
@@ -203,7 +203,7 @@ body {
 
 /* ------ MISC ------  */
 .dijitSplitter {
-	margin-left: 380px !important;
+	margin-left: 350px !important;
 }
 
 .message-container {

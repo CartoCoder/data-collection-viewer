@@ -225,7 +225,7 @@ define({
 	"TIMELINE_CLUSTER": false,
 	/* Enable a navigation menu with buttons to move and zoom the timeline. */
 	"TIMELINE_SHOW_NAVIGATION": false,
-	"TIMELINE_MIN_DATE": '1830',
+	"TIMELINE_MIN_DATE": '1850',
 	/* maximum date onLoad */
 	"TIMELINE_MAX_DATE": '2020',
 	/* steps between labels */
@@ -243,16 +243,16 @@ define({
 	/* path to thumbnails on Image Service */
 	"INFO_THUMBNAIL": "/info/thumbnail",
 	/* Image service */
-	"IMAGE_SERVER": "https://gis.indiana.edu/arcgis/rest/services/IGS_Historical_Map_Collection/Mosaic_Master/ImageServer",
 	//"IMAGE_SERVER": "https://gis.indiana.edu/arcgis/rest/services/IGS_Historical_Map_Collection/dev_mosaic/ImageServer",
+	"IMAGE_SERVER": "https://gis.indiana.edu/arcgis/rest/services/IGS_Historical_Map_Collection/Mosaic_Master/ImageServer",
 	/* outfields */
 	"OUTFIELDS": ['*'],
 	/* WHERE clause (DO NOT CHANGE) */
 	"IMAGE_SERVER_WHERE": "OBJECTID = ",
 
 	/* URL to the ArcGIS Server REST resource that represents a map service layer. */
-	"QUERY_TASK_URL": "https://gis.indiana.edu/arcgis/rest/services/IGS_Historical_Map_Collection/Index_Envelopes/MapServer/0",
 	//"QUERY_TASK_URL": "https://gis.indiana.edu/arcgis/rest/services/IGS_Historical_Map_Collection/dev_Index_Features/MapServer/0",
+	"QUERY_TASK_URL": "https://gis.indiana.edu/arcgis/rest/services/IGS_Historical_Map_Collection/Index_Envelopes/MapServer/0",
 	/* */
 	"QUERY_TASK_OUTFIELDS": ['*'],
 	//"QUERY_TASK_OUTFIELDS": ["OBJECTID", "Year_on_Map", "Map_Name", "Name_on_Map", "Map_Scale",  "Scan_Id", "Citation", "Notes", "orderNum", "bookstoreURL"],
